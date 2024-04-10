@@ -8,6 +8,17 @@
     <artifactId>Reiknivel1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Reiknivel1</name>
+    <description>Project skeleton to be used for final Assignment in course HBV202G Software Design and Construction</description>
+    <licenses>
+        <license>
+            <name>License</name>
+            <url>LICENSE.md</url>
+        </license>
+    </licenses>
+    <organization>
+        <name>University of Iceland</name>
+        <url>https://www.hi.is</url>
+    </organization>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
