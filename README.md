@@ -1,3 +1,5 @@
+# Reiknivél Lokaverkefni
+
 A project from HBV201G, reconfigured for the purposes of streamlining, readability of code as well as testing of methods. 
 The project provides the user with a calculator, which they can use to make simple arithmetic calculations. 
 The tests use JUnit4 and the project incorporates the observer patterns by using handlers in the controller class to observe user input.
@@ -21,3 +23,9 @@ Maven:
     mvn test runs all test cases (i.e. all classes with a name that either starts with Test or ends with Test, Tests, or TestCase).
     mvn assembly:single creates a fat jar file containing the compiled classes.
     mvn exec:java runs CalculatorApplication
+
+## License 
+[MIT](LICENSE)
+
+## UML Diagram
+[DIAGRAM](src/site/markdown/classdiagram.png)

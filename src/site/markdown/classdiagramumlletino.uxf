@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>560</x><y>321</y><w>252</w><h>228</h></coordinates><panel_attributes>Reiknivel
+--
+-tala: Integer
+-utkoma: Integer
+-talaX: Integer
+-talaY: Integer
+-summa: Boolean
+--
+-virkjar: Reikna[ ]
++setTala(Integer): void
++hreinsa(): void
++setVirki(Integer): void
++jafntOg(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>92</x><y>57</y><w>348</w><h>180</h></coordinates><panel_attributes>ReiknivelController
+--
+-reiknivel: Reiknivel
+-firstNumber: String
+-fxUttak: TextField
+--
++virkiHandler(ActionEvent): void
++jafntogHandler(ActionEvent): void
++inntakTalaActionPerformed(ActionEvent): void
++hreinsaHandler(ActionEvent): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>141</y><w>192</w><h>48</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Reikna</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>428</x><y>141</y><w>156</w><h>300</h></coordinates><panel_attributes>lt=.&gt;
+</panel_attributes><additional_attributes>10;10;60;10;60;230;110;230</additional_attributes></element><element><id>Relation</id><coordinates><x>944</x><y>177</y><w>36</w><h>276</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;210</additional_attributes></element><element><id>Relation</id><coordinates><x>812</x><y>177</y><w>180</w><h>288</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes><additional_attributes>10;210;120;210;120;10</additional_attributes></element><element><id>Relation</id><coordinates><x>800</x><y>417</y><w>180</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element></diagram>
