@@ -36,7 +36,7 @@ public class Reiknivel {
         virki = virkjar[tala];
     }
 
-    int reikna() {
+    public int reikna() {
         return virki.reikna(talaX, talaY);
     }
     public String jafntOg(){
